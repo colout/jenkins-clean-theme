@@ -749,14 +749,6 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
     padding: 20px;
 }
 
-.icon-help {
-    display: none;
-}
-
-.help-area {
-    display: none;
-}
-
 #main-panel {
     padding: 0px 15px 80px 15px;
     margin-left: 260px;
