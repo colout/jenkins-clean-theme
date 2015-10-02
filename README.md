@@ -1,17 +1,15 @@
 jenkins-clean-theme
 =================
 
-This is a simple theme for jenkins using the "simple-theme-plugin"
+This is a simple theme for jenkins using the "simple-theme-plugin".  
 
-A demo can be seen here: http://datto.meyer.io:8081/
+I did not create this from scratch, this is forked from Dakota628's repo with some minor tweeks (flatter font and spacing adjustments)
 
 Dependencies
 =================
 
 This theme depends on the jenkins "simple-theme-plugin".
+
 Credits
 =================
-
-Thanks to Chris Kempson (https://github.com/chriskempson/base16) for the base16 color scheme used in the console.
-
-![Screenshot](http://jqa.me/i/eae832)
+https://github.com/Dakota628/jenkins-clean-theme and all his upstream sources
