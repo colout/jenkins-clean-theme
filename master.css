@@ -1,3 +1,6 @@
+@import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+
+
 body {
     background: #fff!important;
 }
@@ -202,7 +205,7 @@ tr {
 }
 
 #projectstatus td,.bigtable td {
-    padding: 10px!important;
+    padding: 4px!important;
 }
 
 #projectstatus tr:nth-child(even)>td,.bigtable tr:nth-child(even)>td {
@@ -318,7 +321,7 @@ li.item:hover {
 }
 
 #tasks {
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 
@@ -765,7 +768,8 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
 }
 
 #main-panel>pre,body>pre {
-    font-size: 13px;
+    
+-size: 13px;
     background: #2b303b;
     color: #c0c5ce;
     padding: 20px;
@@ -842,4 +846,10 @@ h1 {
 
 #side-panel .pane-frame:hover, #side-panel .pane-frame.mouseover {
     border: none !important;
+}
+
+body, table, form, input, td, th, p, textarea, select
+{
+  font-family: lato, Helvetica, Arial, sans-serif;
+  font-size: 13px;
 }
