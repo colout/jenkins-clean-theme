@@ -1,6 +1,4 @@
 @import url("http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
-
-
 body {
     background: #fff!important;
 }
@@ -111,7 +109,6 @@ input[type="text"], input[type="password"], textarea {
     box-sizing: border-box;
     font-size: inherit;
     margin: 0;
-    max-width: 250px;
     vertical-align: baseline;
     width: 100%
 }
@@ -151,6 +148,7 @@ footer {
 footer>a {
     color: #326ca6!important;
 }
+
 a {
     color: #326ca6!important;
     text-decoration: none!important;
@@ -198,7 +196,7 @@ table[style="margin-top: 1em; margin-left:1em;"] td {
 }
 
 tr {
-    border-bottom: 1px solid rgba(0,0,0,.1)!important;
+    border-bottom: 1px solid rgba(0,0,0,.025)!important;
     border-left: none!important;
     border-right: none!important;
     border-top: none!important;
@@ -273,9 +271,7 @@ td.inactive a {
 }
 
 td {
-    border: none!important;
     padding-right: 5px!important;
-    height: 25px;
     font-size: 13px!important;
 }
 
@@ -315,7 +311,6 @@ li.item:hover {
     padding-right: 0!important;
     padding-top: 110px;
     height: 100%!important;
-    position: absolute!important;
     border-right: 1px solid #ddd!important;
     width: 240px;
 }
@@ -345,14 +340,6 @@ li.item:hover {
     margin-bottom: 20px !important;
 }
 
-#main-panel {
-    width: 100%;
-    padding-left: 260px;
-    margin-left: 10px!important;
-    height: 100%!important;
-    float: right!important;
-}
-
 #main-panel table:last-of-type {
     padding-top: 15px !important;
 }
@@ -376,29 +363,17 @@ table {
     border: none!important;
 }
 
-.dashboard td {
-    vertical-align: middle!important;
-}
-
 #description {
     margin: 0!important;
     overflow: auto;
-}
-
-#side-panel div {
-    padding-bottom: 3px;
 }
 
 #side-panel tr {
     border: none!important;
 }
 
-.pane {
-    margin-top: 15px!important;
-}
-
 .subtasks,.task {
-    min-height: 38px!important;
+    min-height: 28px!important;
 }
 
 .subtasks:empty {
@@ -420,19 +395,8 @@ td.pane:first-of-type,td.pane:last-of-type,th.pane:first-of-type,tr.build-row>td
     background: inherit!important;
 }
 
-form {
-    clear: both;
-}
-
 .pane-header,.pane-header>a {
     color: #505050!important;
-}
-
-th.pane,tr.build-row>th {
-    background: rgba(0,0,0,.1)!important;
-    border: 1px solid #f0f0f0!important;
-    text-align: left;
-    text-indent: 3px;
 }
 
 button, input[type="button"], input[type="submit"], input[type="file"]::before, input[type="file"]::-webkit-file-upload-button {
@@ -513,6 +477,8 @@ a.build-health-link img,td img[src*=health] {
     display: none!important;
 }
 
+	
+	
 img[src*="copyright-vertical.png"] {
     opacity: .1;
 }
@@ -627,36 +593,45 @@ td.pane-header > div > a.collapse {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0.1;
     }
+
     100% {
         opacity: 1;
     }
+
 }
 
 @-moz-keyframes inprogress {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0.1;
     }
+
     100% {
         opacity: 1;
     }
+
 }
 
 Keyframes inprogress {
 0% {
     opacity: 1;
 }
+
 50% {
     opacity: 0.1;
 }
+
 100% {
     opacity: 1;
 }
+
 }
 
 .timeline-event-icon {
@@ -783,6 +758,11 @@ img[src$="images/48x48/aborted.png"],  img[src$="images/48x48/aborted.gif"],  im
     display: none;
 }
 
+#main-panel {
+    padding: 0px 15px 80px 15px;
+    margin-left: 260px;
+}
+
 #main-panel>pre:first-of-type,body>pre:first-of-type {
     -webkit-border-top-left-radius: 3px;
     -webkit-border-top-right-radius: 3px;
@@ -831,8 +811,8 @@ h1 {
 }
 
 .tabBarFrame {
-    border: 1px solid rgba(0,0,0,.1)!important;
-    padding: 5px;
+    border: 1px solid rgba(0,0,0,.025)!important;
+    padding: 2px;
 }
 
 .tabBar .tab:not(.active) a {
