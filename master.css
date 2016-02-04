@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
+
+@font-face {
+   font-family: monospace;
+   src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+}
+
 
 body {
     background: #fff!important;
@@ -252,6 +259,10 @@ td.inactive {
 
 #viewList td {
     padding-bottom: 5px;
+}
+
+.console-output {
+    font-family: 'Droid Sans Mono', monospace ;
 }
 
 .dashboard {
